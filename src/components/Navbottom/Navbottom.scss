@@ -1,0 +1,38 @@
+.navbottom{
+    /* display: flex; */
+    position: fixed;
+    bottom: 0;
+    height: 4vw;
+    text-align: center;
+    width: 100%;
+}
+
+.navbottom-footer{
+    display: flex;
+    height: inherit;
+    background-color:powderblue;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* gap: 1rem; */
+}
+
+.navbottom-a{
+    flex:3;
+    height: inherit;
+    padding: auto;
+    background-color: powderblue;
+    color: black;
+    width: 5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbottom-a:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+
