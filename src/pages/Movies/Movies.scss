@@ -1,0 +1,23 @@
+.Movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+    border: 2px solid transparent;
+    // transition: var(--transition);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .Movies {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .Movies {
+        grid-template-columns: 1fr;
+    }
+}
